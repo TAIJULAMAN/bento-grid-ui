@@ -1,5 +1,8 @@
-import ComponentLibraryShowcase from "../component-library-showcase"
+// Add this to your page
 
-export default function Home() {
-  return <ComponentLibraryShowcase />
+import BentoGrid from "@/bento-grid";
+
+
+export default function Page() {
+  return <BentoGrid />
 }
